@@ -1,70 +1,96 @@
-# Getting Started with Create React App
+AuthFlow React flusso di autenticazione
+Sistema de login funcional em React. Demonstra o fluxo de autenticação completo com gerenciamento de estado (Hooks), roteamento (React Router) e simulação de API. Inclui navegação para um dashboard protegido e feedback de UX (loading/erros), servindo como um projeto de estudo completo.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🎥 Demo
+(Recomendação importante: Grave um GIF curto mostrando o fluxo de login funcionando e coloque aqui! Isso valoriza muito o seu projeto.)
 
-## Available Scripts
+Você pode usar ferramentas como LICEcap ou ScreenToGif para gravar a tela.
 
-In the project directory, you can run:
+![Placeholder para o GIF do seu projeto]
 
-### `npm start`
+✨ Funcionalidades
+Formulário Interativo: Validação de campos e controle de dados em tempo real com componentes controlados.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Gerenciamento de Estado com Hooks: Uso de useState para gerenciar inputs, mensagens e estados de carregamento, e useNavigate para o redirecionamento.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Roteamento Dinâmico: Navegação entre a tela de login e um "dashboard" protegido utilizando a biblioteca React Router DOM.
 
-### `npm test`
+Simulação de API: O projeto simula uma chamada de API para autenticação, com um modo "Plano B" que funciona localmente para contornar problemas de rede (firewall/proxy).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Feedback Visual (UX): Mensagens de sucesso e erro são exibidas dinamicamente para o usuário, e o botão de login fica desabilitado com um texto de "carregando" durante a operação.
 
-### `npm run build`
+Acessibilidade: Uso de <label>s e atributos htmlFor para garantir que o formulário seja acessível.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🛠️ Tecnologias Utilizadas
+React.js (v18+)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Vite
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+React Router DOM (v6)
 
-### `npm run eject`
+JavaScript (ES6+)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+CSS3
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🚀 Como Executar o Projeto
+Para rodar este projeto localmente, siga os passos abaixo:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Pré-requisitos:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+É necessário ter o Node.js instalado (versão 16 ou superior).
 
-## Learn More
+Um gerenciador de pacotes como npm ou Yarn.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. Clone o repositório:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Bash
 
-### Code Splitting
+git clone https://github.com/seu-usuario/nome-do-seu-repositorio.git
+3. Navegue até a pasta do projeto:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Bash
 
-### Analyzing the Bundle Size
+cd nome-do-seu-repositorio
+4. Instale as dependências:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Bash
 
-### Making a Progressive Web App
+npm install
+5. Inicie o servidor de desenvolvimento:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Bash
 
-### Advanced Configuration
+npm run dev
+Abra seu navegador e acesse http://localhost:5173 (ou a porta indicada no seu terminal).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Credenciais para teste:
 
-### Deployment
+Email: eve.holt@reqres.in
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Senha: (qualquer senha)
 
-### `npm run build` fails to minify
+🧠 Conceitos Praticados neste Projeto
+Criação de Componentes Funcionais em React.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Gerenciamento de Estado com o hook useState.
+
+Componentes Controlados para formulários.
+
+Manuseio de Eventos (onSubmit).
+
+Renderização Condicional para exibir mensagens e alterar o estado do botão.
+
+Implementação de Roteamento Client-Side com React Router DOM (BrowserRouter, Routes, Route).
+
+Navegação Programática com o hook useNavigate.
+
+Simulação de Operações Assíncronas (chamadas de API) com setTimeout.
+
+Tratamento de Erros com a estrutura try...catch.
+
+Acessibilidade em formulários HTML.
+
+📝 Licença
+Este projeto está sob a licença MIT.
+
+Feito com ❤️ por [Seu Nome Aqui] - 2025.
