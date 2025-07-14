@@ -45,7 +45,7 @@ Um gerenciador de pacotes como npm ou Yarn.
 
 Bash
 
-git clone https://github.com/seu-usuario/nome-do-seu-repositorio.git
+git clone https://github.com/dkzzyn/AuthFlow-React
 3. Navegue até a pasta do projeto:
 
 Bash
